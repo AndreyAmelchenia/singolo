@@ -1,0 +1,254 @@
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50XSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+body{
+    font-family: 'Lato';
+    position:relative;
+    margin: auto;
+    width: 1020px;
+}
+.wrapper{
+    display: flex;
+    width: 940px;
+    margin: auto;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.portfolio{
+    z-index: 1;
+    position:absolute;
+    font-family: "Lato";
+    width: 1020px;
+    height: 870px;
+    background-color: #2d303a;
+    
+}
+.head{
+    display: flex;
+    flex-flow: column;
+}
+.head h1{
+    margin-top: 69px;
+    margin-bottom: 27px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+}
+.head p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 11px;
+}
+.head-button{
+    display: flex;
+    justify-content: space-between;
+    width: 288px;
+}
+.head a{
+    font-size: 12px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:3px 7px;
+    background-color: #2d303a;
+    border: 1px solid #767e9e;
+}
+.head a:hover{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+.portfolio-images{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: wrap;
+    height: 601px;
+    justify-content: space-between;
+    background-color: #2d303a;
+    overflow:hidden;
+}
+.portfolio-img{
+    width: 220px;
+    height: 187px;
+    background-color: #ccd1e4;
+    margin-bottom: 20px;
+    overflow:hidden;
+    position:relative;
+}
+.portfolio-img img{
+   position: absolute;
+}
+.i1{
+    top: -10px;
+    left: -8px; 
+}
+.i2{
+    top: -43px;
+    left: -81px;
+}
+.i3{
+    top: -1px;
+    left: -11px;
+}
+.i4{
+    top: -2px;
+    left: -24px;
+}
+.i5{
+    top: -16px;
+    left: -11px;
+}
+.i6{
+    top: -5px;
+    left: -16px;
+}
+.i7{
+    top: -39px;
+    left: -31px;
+}
+.i8{
+    top: -32px;
+    left: -24px;
+}
+.i9{
+    top: -3px;
+    left: -16px;
+}
+.i10{
+    top: -113px;
+    left: -141px;
+}
+.i11{
+    top: -175px;
+    left: -144px;
+}
+.i12{
+    top: -60px;
+    left: -35px;
+}
+.bg-bottom{
+    top: 864px;
+    position: absolute;
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+    z-index: 2;
+}
+.about-us{
+    position:absolute;
+    top: 869px;
+    font-family: "Lato";
+    width: 1020px;
+    height: 729px;
+    background-color: #f2f2f2;
+    z-index: 1;
+}
+
+.about-us_text h2{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+}
+.about-us_text p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 45px;
+}
+.about-us_freands{
+    display: flex;
+    justify-content: space-between;
+}
+.about-us_freand{
+    width: 300px;
+    
+}
+.freand_photo{
+    position: relative;
+    width: 302px;
+    height: 301px;
+    background-color: #2d303a;
+    overflow:hidden;
+}
+.freand_photo img{
+    position: absolute;
+}
+
+.freand_about h3{
+    margin-top: 14px;
+    margin-bottom: 7px;
+    font-size: 18px;
+    color: #666d89;    
+    font-weight: 900;
+    text-align: left;
+    
+}
+.freand_about p{
+    margin-top: 0px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: justify;
+    font-stretch: condensed;
+}
+
+.icon{
+    margin-top: 22px;
+}
+.icon img{
+    margin-right: 2px;
+}
+.bg-bottom2{
+    top: 1598px;
+    position: absolute;
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+    z-index: 2;
+}
