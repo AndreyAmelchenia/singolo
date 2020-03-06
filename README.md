@@ -1,3 +1,1 @@
-- https://andreyamelchenia.github.io/singolo/singolo1.html
-- https://andreyamelchenia.github.io/singolo/singolo2.html
-- https://andreyamelchenia.github.io/singolo/singolo3.html
+- https://andreyamelchenia.github.io/singolo/
