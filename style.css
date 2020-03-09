@@ -301,6 +301,8 @@ header{
     flex-basis: 100%;
     line-height: 1.35rem;
     letter-spacing: 0.0015rem;
+    height: 3.9375rem;
+    overflow: hidden;
 }
 .our-services__bottom{
     background: #ffffff;
@@ -461,6 +463,8 @@ header{
     color: #666d89;
     margin-bottom: 0.5rem;
     letter-spacing: -0.005rem;
+    height: 1.375rem;
+    overflow: hidden;
 }
 .about-us__friend__p{
     color: #767e9e;
