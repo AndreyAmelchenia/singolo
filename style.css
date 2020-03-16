@@ -402,54 +402,6 @@ li:nth-child(1) > a{
    
     position: relative;
 }
-/*.portfolio__image_c1{
-    top: -10px;
-    left: -8px; 
-}
-.portfolio__image_c2{
-    top: -43px;
-    left: -81px;
-}
-.portfolio__image_c3{
-    top: -1px;
-    left: -11px;
-}
-.portfolio__image_c4{
-    top: -2px;
-    left: -24px;
-}
-.portfolio__image_c5{
-    top: -16px;
-    left: -11px;
-}
-.portfolio__image_c6{
-    top: -5px;
-    left: -16px;
-}
-.portfolio__image_c7{
-    top: -39px;
-    left: -31px;
-}
-.portfolio__image_c8{
-    top: -32px;
-    left: -24px;
-}
-.portfolio__image_c9{
-    top: -3px;
-    left: -16px;
-}
-.portfolio__image_c10{
-    top: -113px;
-    left: -141px;
-}
-.portfolio__image_c11{
-    top: -175px;
-    left: -144px;
-}
-.portfolio__image_c12{
-    top: -60px;
-    left: -35px;
-}*/
 .portfolio__bottom{
     background: #323746;
 }

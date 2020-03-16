@@ -211,8 +211,7 @@ class Content {
        } else {
            template += `<textarea class = "get-a-quote__form__modal" >Without description.</textarea>`
        }
-      //  cont.innerHTML = template;
-       // console.log(cont);
+     
         return template;
         
     }
@@ -274,15 +273,7 @@ class Modal {
             let name = `.${this.overlay.className}`
             document.querySelector(name).remove();
            }
-        });
-      /*  this.overlay.addEventListener('click',(event) =>{
-            let classEvent = event.target.classList;
-            if( classEvent.contains(this.overlay.classList)){
-            
-            let name = `.${this.overlay.className}`
-            document.querySelector(name).remove();
-           }
-        });*/
+        })
     }
     openModal(){
         document.body.append(this.overlay);
