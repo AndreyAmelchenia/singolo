@@ -102,44 +102,44 @@ p {
   display: block;
   width: 2.1875rem;
   height: 2.1875rem;
-  background: url(../../assets/svg/icon__facebook.svg);
+  background: url(assets/svg/icon__facebook.svg);
 }
 
 .icon__facebook:hover {
-  background: url(../../assets/svg/icon__facebook_color.svg);
+  background: url(assets/svg/icon__facebook_color.svg);
 }
 
 .icon__google {
   display: block;
   width: 2.1875rem;
   height: 2.1875rem;
-  background: url(../../assets/svg/icon__google+.svg);
+  background: url(assets/svg/icon__google+.svg);
 }
 
 .icon__google:hover {
-  background: url(../../assets/svg/icon__google+_color.svg);
+  background: url(assets/svg/icon__google+_color.svg);
 }
 
 .icon__twitter {
   display: block;
   width: 2.1875rem;
   height: 2.1875rem;
-  background: url(../../assets/svg/icon__twitter.svg);
+  background: url(assets/svg/icon__twitter.svg);
 }
 
 .icon__twitter:hover {
-  background: url(../../assets/svg/icon__twitter_color.svg);
+  background: url(assets/svg/icon__twitter_color.svg);
 }
 
 .icon__linkedin {
   display: block;
   width: 2.1875rem;
   height: 2.1875rem;
-  background: url(../../assets/svg/icon__linkedin.svg);
+  background: url(assets/svg/icon__linkedin.svg);
 }
 
 .icon__linkedin:hover {
-  background: url(../../assets/svg/icon__linkedin_color.svg);
+  background: url(assets/svg/icon__linkedin_color.svg);
 }
 
 body, html {
@@ -224,13 +224,13 @@ header {
   display: block;
   width: 16px;
   height: 27px;
-  background: url(../../assets/image/arrow_left.png);
+  background: url(assets/image/arrow_left.png);
 }
 
 .slider-block__arrow__left:hover {
   margin-top: -5px;
   margin-left: 2px;
-  background: url(../../assets/image/arrow_left_mod.png);
+  background: url(assets/image/arrow_left_mod.png);
 }
 
 /*block slider image*/
@@ -258,7 +258,7 @@ header {
   width: 15.125rem;
   height: 30.25rem;
   position: relative;
-  background: url(../../assets/image/vertical_1.png);
+  background: url(assets/image/vertical_1.png);
 }
 
 .slider-block__vertical__body {
@@ -284,7 +284,7 @@ header {
   width: 30.3125rem;
   height: 15.0625rem;
   position: relative;
-  background: url(../../assets/image/horizontal_1.png);
+  background: url(assets/image/horizontal_1.png);
 }
 
 .slider-block__horizontal__body {
@@ -326,11 +326,11 @@ header {
   display: block;
   width: 16px;
   height: 27px;
-  background: url(../../assets/image/arrow_right.png);
+  background: url(assets/image/arrow_right.png);
 }
 
 .slider-block__arrow__right:hover {
-  background: url(../../assets/image/arrow_right_mod.png);
+  background: url(assets/image/arrow_right_mod.png);
 }
 
 .slider-block__bottom {
