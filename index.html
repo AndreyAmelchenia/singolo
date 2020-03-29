@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/sass/style.css">
     <title>Singolo_FULL</title>
 </head>
 <body>
     <!--Singolo1  start-->
     <header class="header" id="header">
-        <div class="wrapper header__wrapper">
+        <div class="wrapper wrapper__header">
+            <span class="hamb hamburger">
+                <span class=" hamburger__line"></span>
+            </span>
             <a class="header__logo" href="#"><h1>singolo<span class="header__logo_color">*</span></h1></a>
             <ul class="header__list" id="header__list">
-                <a href="#header__bottom"><li class="header__list__item header__list__item_mod">HOME</li>
+                <a href="#header__bottom"><li class="header__list__item header__list__item_mod">HOME</li></a>
                 <a href="#our-services"><li class="header__list__item">SERVICES</li></a>
                 <a href="#portfolio"><li class="header__list__item">PORTFOLIO</li></a>
                 <a href="#about-us"><li class="header__list__item">ABOUT</li></a>
@@ -22,24 +25,25 @@
     </header>
     <section class="bottom header__bottom" id="header__bottom"></section>
     <section class="slider-block" id="slider-block">    
-        <div class="wrapper slider-block__wrapper">
-            <div class="slider-block__arrow">
-                <a class="slider-block__arrow__left" href="#header"></a>
-            </div>
+        <div class="wrapper wrapper__slider-block">
+            <a class="slider-block__arrow slider-block__arrow_left" href="#header"></a>
             <div class="slider-block__sliders">
-                <div class="slider-block__slider__first">
+                <div class="slider-block__slid slider-block__slid__first">
                     <div class="slider-block__vertical">
-                        <div class="slider-block__vertical__body">
-                            <img src="assets/image/vertical.png" alt="">
-                        </div>
+                        <div class="slider-block__vertical__img"></div>
                     </div>
+                    
                     <div class="slider-block__horizontal">
+                        <div class="slider-block__horizontal__img"></div>
+                    </div>
+                    
+                    <!--div class="slider-block__horizontal">
                         <div class="slider-block__horizontal__body">
                             <img src="assets/image/horizontal.png" alt="">                       
                         </div>
-                    </div>
+                    </div-->
                 </div>
-                <div class="slider-block__slider__second">
+                <div class="slider-block__slid slider-block__slid__second">
                      <div class="slider-block__next">
                         <img src="assets/image/slider-content.png" alt="">                       
                         <div class="slider-block__second__body">
@@ -49,16 +53,14 @@
                     </div>
                 </div>
             </div>
-            <div class="slider-block__arrow">
-                <a class="slider-block__arrow__right" href="#header"></a>
-            </div>
+            <a class="slider-block__arrow slider-block__arrow_right" href="#header"></a>
         </div>  
     </section>
     <section class="bottom slider-block__bottom" ></section>
     <section class="our-services" id="our-services">    
-        <div class="wrapper our-services__wrapper">
-            <h2 class="our-service__h2">Our Services</h2>
-            <p class="p_first our-service__p">
+        <div class="wrapper wrapper__our-services">
+            <h2 class="h2 h2_our-service">Our Services</h2>
+            <p class="p_first p_our-service">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
                 non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
@@ -66,8 +68,8 @@
             <div class="our-service__layout">
                 <img class="our-service__layout__img" src="assets/image/pen.png" alt="">
                 <div class="our-service__layout__text">
-                    <h3 class="our-service__h3">Custom Design</h3>
-                    <p class="p_second our-service__layout__p">
+                    <h3 class="h3 h3_our-service">Custom Design</h3>
+                    <p class="p_second p_our-service_layout">
                         Curabitur vestibulum eget mauris
                         quis laoreet. Phasellus in quam laoreet, viverra 
                         lacus ut, ultrices velit.
@@ -77,8 +79,8 @@
             <div class="our-service__layout">
                 <img class="our-service__layout__img" src="assets/image/bulb.png" alt="">
                 <div class="our-service__layout__text">
-                    <h3 class="our-service__h3">Inovative Ideas</h3>
-                    <p class="p_second our-service__layout__p">
+                    <h3 class="h3 h3_our-service">Inovative Ideas</h3>
+                    <p class="p_second p_our-service_layout">
                         Quisque luctus quam eget molestie com-modo, 
                         lacus purus cursus purus, nec rutrum tellus 
                         dolor id lorem.
@@ -88,8 +90,8 @@
             <div class="our-service__layout">
                 <img class="our-service__layout__img" src="assets/image/heart.png" alt="">
                 <div class="our-service__layout__text">
-                    <h3 class="our-service__h3">Love Is The Answer</h3>
-                    <p class="p_second our-service__layout__p">
+                    <h3 class="h3 h3_our-service">Love Is The Answer</h3>
+                    <p class="p_second p_our-service_layout">
                         Nulla sed runc et tortor luctus faucibus. Morbi 
                         at aliquet turpis, et consequat felis. Quisque 
                         concimentum.</p>
@@ -98,8 +100,8 @@
             <div class="our-service__layout">
                 <img class="our-service__layout__img" src="assets/image/phone.png" alt="">
                 <div class="our-service__layout__text">
-                    <h3 class="our-service__h3">Responsive Layout</h3>
-                    <p class="p_second our-service__layout__p">
+                    <h3 class="h3 h3_our-service">Responsive Layout</h3>
+                    <p class="p_second p_our-service_layout">
                         Sed porttitor placerat rhoncus. In at nunc tellus. 
                         Maecenas blandit nunc ligula. Prae-sent elit leo.
                     </p>
@@ -108,8 +110,8 @@
             <div class="our-service__layout">
                 <img class="our-service__layout__img" src="assets/image/bubble.png" alt="">
                 <div class="our-service__layout__text">
-                    <h3 class="our-service__h3">24 / 7 Support</h3>
-                    <p class="p_second our-service__layout__p">
+                    <h3 class="h3 h3_our-service">24 / 7 Support</h3>
+                    <p class="p_second p_our-service_layout">
                         Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellen-tesque 
                         egestas venenatis lorem.
                     </p>
@@ -118,8 +120,8 @@
             <div class="our-service__layout">
                 <img class="our-service__layout__img" src="assets/image/star.png" alt="">
                 <div class="our-service__layout__text">
-                    <h3 class="our-service__h3">Feel Like A Star</h3>
-                    <p class="p_second our-service__layout__p">
+                    <h3 class="h3 h3_our-service">Feel Like A Star</h3>
+                    <p class="p_second p_our-service_layout">
                         Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Furce vitae aliquam tellus.
                     </p>
                 </div>
@@ -131,74 +133,58 @@
     
     <!--singolo2 START-->
     <section class="portfolio" id="portfolio">
-        <div class="wrapper portfolio__wrapper">
-            <h2 class="portfolio__h2">Portfolio</h2>
-            <p class="p_first portfolio__p">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+        <div class="wrapper wrapper__portfolio">
+            <h2 class="h2 h2_portfolio">Portfolio</h2>
+            <p class="p_first p_portfolio">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
                 odio sem nec elit.
             </p>
             <ul class="portfolio__list">
-                <li class="portfolio__item"><a class="portfolio__link portfolio__link_color" href="#portfolio">All</a></li>
-                <li class="portfolio__item"><a class="portfolio__link" href="#portfolio">Web Design</a></li>
-                <li class="portfolio__item"><a class="portfolio__link" href="#portfolio">Graphic Design</a></li>
-                <li class="portfolio__item"><a class="portfolio__link" href="#portfolio">Artwork</a></li>
+                <li class="portfolio__item portfolio__item_color">All</li>
+                <li class="portfolio__item">Web Design</li>
+                <li class="portfolio__item">Graphic Design</li>
+                <li class="portfolio__item">Artwork</li>
             </ul>
             <div class="portfolio__images">
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c1"  src="assets/image/Project.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c2" src="assets/image/Project 2.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c3" src="assets/image/Project 3.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c4" src="assets/image/Project 4.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c5" src="assets/image/Project 5.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c6" src="assets/image/Project 6.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c7" src="assets/image/Project 7.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c8" src="assets/image/Project 8.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c9" src="assets/image/Project 9.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c10" src="assets/image/Project 10.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c11" src="assets/image/Project 11.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c12" src="assets/image/Project 12.png" alt="">
                 </div>
                 <!--div class="portfolio__image">
-                    <img class="portfolio__image_c6" src="assets/image/Project 6.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c7" src="assets/image/Project 7.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c8" src="assets/image/Project 8.png" alt="">
                 </div>
                 <div class="portfolio__image">
-                    <img class="portfolio__image_c9" src="assets/image/Project 9.png" alt="">
                 </div-->
             </div>
         </div>  
     </section>
     <section class="bottom portfolio__bottom" ></section>
     <section class="about-us" id="about-us">
-        <div class="wrapper about-us__wrapper" >
-            <h2 class="about-us__h2">About Us</h2>
-            <p class="p_first about-us__p">
+        <div class="wrapper wrapper__about-us" >
+            <h2 class="h2 h2_about-us">About Us</h2>
+            <p class="p_first p_about-us">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo 
                 luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursur commodo, 
                 tortor mauris condimentum nibh.
@@ -208,8 +194,8 @@
                     <div class="about-us__friend__photo">
                         <img class="about-us__friend__ph1" src="assets/image/adam.png" alt="">
                     </div>                    
-                    <h3 class="about-us__friend__h3">Adam Jensen</h3>
-                    <p class="p_second about-us__friend__p">
+                    <h3 class="h3 h3_about-us">Adam Jensen</h3>
+                    <p class="p_second p_about-us__friend">
                         Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus 
                         dolor id lorem.
                     </p>                   
@@ -224,8 +210,8 @@
                     <div class="about-us__friend__photo">
                         <img class="about-us__friend__ph2" src="assets/image/desmond.png" alt="">
                     </div>                    
-                    <h3 class="about-us__friend__h3">Desmond Miles</h3>
-                    <p class="p_second about-us__friend__p">
+                    <h3 class="h3 h3_about-us">Desmond Miles</h3>
+                    <p class="p_second p_about-us__friend">
                         Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut,
                         ultrices velit.
                     </p>                        
@@ -240,8 +226,8 @@
                     <div class="about-us__friend__photo">
                         <img class="about-us__friend__ph3" src="assets/image/Scolara.png" alt="">
                     </div>                    
-                    <h3 class="about-us__friend__h3">Scolara Visari</h3>
-                    <p class="p_second about-us__friend__p">
+                    <h3 class="h3 h3_about-us">Scolara Visari</h3>
+                    <p class="p_second p_about-us__friend">
                         Nulla sed nunc et tortor luctus faucibus. Morbi 
                         at aliquet turpis, et consequat felis. Quisque 
                         condimentum.
@@ -261,9 +247,9 @@
     
     <!--singolo3 START-->
     <section class="get-a-quote" id="get-a-quote">
-        <div class="wrapper get-a-quote__wrapper">
-            <h2 class="get-a-quote__h2">Get a Quote</h2>
-            <p class="p_first get-a-quote__p">
+        <div class="wrapper wrapper__get-a-quote">
+            <h2 class="h2 h2_get-a-quote">Get a Quote</h2>
+            <p class="p_first p_get-a-quote">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris
                 condimentum. Duis mollis, non commodo luctus, nisi erat 
                 porttitor ligula, eget lacinia odio sem nec elit. Fusce 
@@ -271,15 +257,15 @@
                 condimentum nibh.
             </p>
             <form class="get-a-quote__form">
-                <input class="get-a-quote__form__input" name="name" type="text" placeholder="Name (Required)" required>
-                <input class="get-a-quote__form__input" name="e-mail" type="email" placeholder="Email (Required)" required>
-                <input class="get-a-quote__form__input" name="subject" type="text" placeholder="Subject">
-                <textarea class="get-a-quote__form__detail" name="text" placeholder="Describe your project in detail..."></textarea>
-                <input class="get-a-quote__form__button" type="submit" value="Send">
+                <input class="get-a-quote__input" name="name" type="text" placeholder="Name (Required)" required>
+                <input class="get-a-quote__input" name="e-mail" type="email" placeholder="Email (Required)" required>
+                <input class="get-a-quote__input" name="subject" type="text" placeholder="Subject">
+                <textarea class="get-a-quote__input get-a-quote__input__detail" name="text" placeholder="Describe your project in detail..."></textarea>
+                <input class="get-a-quote__input get-a-quote__input__button" type="submit" value="Send">
             </form>
             <div class="get-a-quote__contact">
-                <h3 class="get-a-quote__contact__h3">Contact Information</h3>
-                <p class="p_second get-a-quote__contact__p">Quisque hendrerit purus dapibus, ornare nibh vitae, viver- ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
+                <h3 class="h3 h3_get-a-quote">Contact Information</h3>
+                <p class="p_second p_get-a-quote_contact">Quisque hendrerit purus dapibus, ornare nibh vitae, viver- ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
                 <div class="get-a-quote__contact__link">
                     <div>
                         <img src="assets/svg/location.svg" alt="">
@@ -315,7 +301,7 @@
             </div>
         </div>
     </footer>  
-    <script src="script.js"></script>
+    <script src="src/js/script.js"></script>
     <!--singolo3 end-->  
 </body>
 </html>
